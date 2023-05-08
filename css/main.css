@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 슬릭 기본셋팅 css */
+.slick-slider .slick-list {display:block; overflow-x:hidden; overflow-y:hidden; position:relative;}
+.slick-slider .slick-list.dragging {cursor:pointer;}
+.slick-slider .slick-list .slick-track {display:block; position:relative; top:0; left:0;}
+.slick-slider .slick-list .slick-track:before, .slick-slider .slick-list .slick-track:after {display:table;}
+.slick-slider .slick-list .slick-track:after {clear:both;}
+.slick-slider .slick-list.slick-loading .slick-track {visibility:hidden;}
+.slick-slider .slick-list .slick-track .slick-slide {display:none; float:left;}
+.slick-slider[dir='rtl'] .slick-list .slick-track .slick-slide {float:right;}
+.slick-slider .slick-list .slick-track .slick-slide img {display:inline-block;}
+.slick-slider .slick-list .slick-track .slick-slide.slick-loading img {display:none;}
+.slick-slider.slick-initialized .slick-list .slick-track .slick-slide {display:block;}
+.slick-slider .slick-list .slick-track.slick-loading .slick-slide {visibility:hidden;}
+.slick-slider .slick-arrow.slick-hidden {display:none;}
+
+/* 메인비주얼 */
+.visual {position:relative;}
+.visual .ctrl {position:absolute;left:0;top:calc(50% - 18px);/*top:50%;margin-top:-18px;*/z-index:2;width:100%;}
+.visual .ctrl button {position:absolute;top:0;width:22px;height:36px;font-size:0;line-height:0;color:transparent;}
+.visual .ctrl .prev {left:0;background:url('../img/main/visual_prev.png') no-repeat;}
+.visual .ctrl .next {right:0;background:url('../img/main/visual_next.png') no-repeat;}
+.visual .list_box {position:relative;}
+.visual .item {height:724px;z-index:1 !important;}
+.visual .slide1 {background:url('../img/main/visual_img1.jpg') no-repeat center top;}
+.visual .slide2 {background:url('../img/main/visual_img2.png') no-repeat center top;}
+.visual .slogan {margin-top:180px;color:#fff;text-align:center;}
+.visual .slogan p {font-size:56px;line-height:57px;}
+.visual .slogan p strong {display:block;margin-bottom:30px;font-size:48px;line-height:49px;}
+.visual .shortcut {display:inline-block;padding:0 40px;height:64px;margin-top:60px;border:1px solid #ddd;border-radius:32px;background-color:#fff;font-size:24px;line-height:62px;color:#000;font-weight:600;}
+
+/* 베스트셀러 */
+.bestseller h2 {margin:100px 0 50px;font-size:36px;color:#000;font-weight:600;text-align:center;}
+.bestseller .best_list {margin-left:-50px;}
+.bestseller .best_list li {float:left;width:300px;/*width:calc(100% / 7);*/margin-left:50px;}
+.bestseller .img {line-height:0;box-shadow:0 10px 10px rgba(0,0,0,0.3);}
+.bestseller .img:hover {border:1px solid #666;}
+.bestseller .txt {margin-top:30px;text-align:center;}
+.bestseller .title {display:block;margin-bottom:15px;font-size:24px;color:#1c2a39;font-weight:500;}
+.bestseller .title:hover {font-weight:600;cursor:pointer;}
+.bestseller .name {display:block;font-size:16px;color:#5c6a79;}
+
+/* 공지사항 */
+.notice_box {margin-top:100px;}
+.notice_box .news {float:left;width:1040px;}
+.notice_box .news h2 {margin-bottom:55px;font-size:36px;color:#000;font-weight:600;}
+.notice_box .news .colgroup1 {float:left;width:425px;margin-right:87px;}
+.notice_box .news .colgroup2 {float:left;width:510px;}
+.notice_box .news li {position:relative;margin-top:24px;padding:0 110px 0 20px;font-size:16px;}
+.notice_box .news li:first-child {margin-top:0;}
+.notice_box .news li:before {display:block;content:'';position:absolute;left:0;top:50%;width:4px;height:4px;border-radius:100%;background-color:#ccc;}
+.notice_box .news a {display:block;overflow:hidden;color:#666;text-overflow:ellipsis;white-space:nowrap;}
+.notice_box .news .date {position:absolute;right:0;top:0;color:#999;}
+.notice_box .shortcut {float:right;width:290px;}
+.notice_box .shortcut a {display:block;line-height:0;}
+
+/* 유튜브 */
+.youtube_box {margin-top:100px;padding:80px 0;background-color:#f9f9f9;}
+.youtube_box .img {float:left;width:881px;}
+.youtube_box .text {float:right;width:445px;}
+.youtube_box h2 {margin:50px 0 40px;font-size:36px;color:#000;font-weight:600;}
+.youtube_box .hashtag {display:block;margin-bottom:15px;font-size:16px;color:#666;}
+.youtube_box .title {display:block;font-size:24px;color:#000;letter-spacing:-1px;}
+.youtube_box .info {position:relative;padding-left:120px;margin-top:50px;}
+.youtube_box .info img {position:absolute;left:0;top:0;}
+.youtube_box .info strong {display:block;padding-top:15px;font-size:24px;color:#000;font-weight:500;}
+.youtube_box .info span {display:block;margin-top:5px;font-size:16px;color:#666;}

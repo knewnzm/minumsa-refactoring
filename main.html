@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" >
+<title>민음사</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+<header>
+	<div class="wrap clearfix">
+		<h1 class="logo">
+			<a href="#"><img src="img/header/logo.png" alt="민음사로고"></a>
+		</h1>
+		<div class="head_info">
+			<div class="search">
+				<form>
+					<input type="text" title="검색어를 입력하세요.">
+					<input type="submit" value="검색" title="검색">
+					<!--나중에 css에서 폰트 사이즈,컬러투명,라인헤이트0 주고 백그라운드로 이미지 주기 아이콘영역만큼 가로세로값주기
+					검색 보더 0 주기-->
+				</form>
+			</div>
+			<div class="login">
+				<a href="#"><img src="img/header/login_icon.png" alt="로그인"></a>
+			</div>
+		</div>
+	</div>
+	<div class="menu_box">
+		<div class="wrap">
+			<ul class="menu clearfix">
+				<li class="dep1_area">
+					<a href="#" class="dep1">도서</a>
+					<ul class="dep2">
+						<li><a href="#">전체도서</a></li>
+						<li><a href="#">베스트셀러</a></li>
+						<li><a href="#">카테고리</a></li>
+						<li><a href="#">전자책 목록</a></li>
+						<li><a href="#">독자 리뷰</a></li>
+					</ul>
+				</li>
+				<li class="dep1_area"><a href="#" class="dep1">문학상</a>
+					<ul class="dep2">
+						<li><a href="#">오늘의 작가상</a></li>
+						<li><a href="#">김수영 문학상</a></li>
+					</ul>
+				</li> 
+				<li class="dep1_area"><a href="#" class="dep1">북클럽</a>
+					<ul class="dep2">
+						<li><a href="#">멤버십안내</a></li>
+						<li><a href="#">민음북클럽</a></li>
+						<li><a href="#">정기구독</a></li>
+						<li><a href="#">민음 북샵</a></li>
+						<li><a href="#">e-스템프 이벤트</a></li>
+					</ul>
+				</li>
+				<li class="dep1_area"><a href="#" class="dep1">소개</a></li>
+				<li class="dep1_area"><a href="#" class="dep1">이벤트</a></li>
+				<li class="dep1_area"><a href="#" class="dep1">커뮤니티</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<div class="main">
+	<div class="visual">
+		<div class="ctrl">
+			<div class="wrap">
+				<button type="button" class="prev">이전</button>
+				<button type="button" class="next">다음</button>
+			</div>
+		</div>
+		<div class="list_box">
+			<div class="slide1 item">
+				<div class="wrap">
+					<div class="slogan">
+						<p><strong>2022 믿음북클럽</strong> '책끼리 이어지는 우리끼리 커뮤니티'</p>
+						<a href="" class="shortcut">자세히보기</a>
+					</div>
+				</div>
+			</div>
+			<div class="slide2 item">
+				<div class="wrap">
+					<div class="slogan">
+						<p><strong>2022 믿음북클럽</strong> '책끼리 이어지는 우리끼리 커뮤니티'</p>
+						<a href="" class="shortcut">인증사진 이벤트</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //메인비주얼 -->
+
+	<div class="bestseller">
+		<div class="wrap">
+			<h2>	베스트셀러</h2>
+			<ul class="best_list clearfix">
+				<li>
+					<div class="img"><a href="#"><img src="img/main/bestseller_img1.png" alt="데미안 이미지"></a></div>
+					<div class="txt">
+						<strong class="title">데미안</strong>
+						<span class="name">헤르만 헤세</span>
+					</div>
+				</li>
+				<li>
+					<div class="img"><a href="/detail_page.html"><img src="img/main/bestseller_img2.png" alt="동물농장 이미지"></a></div>
+					<div class="txt">
+						<strong class="title">동물농장</strong>
+						<span class="name">조지 오웰</span>
+					</div>
+				</li>
+				<li>
+					<div class="img"><a href="#"><img src="img/main/bestseller_img3.png" alt="참을 수 없는 존재의 가벼움 이미지"></a></div>
+					<div class="txt">
+						<strong class="title">참을 수 없는 존재의 가벼움</strong>
+						<span class="name">밀란 쿤데라</span>
+					</div>
+				</li>
+				<li>
+					<div class="img"><a href="#"><img src="img/main/bestseller_img4.png" alt="한국이 싫어서 이미지"></a></div>
+					<div class="txt">
+						<strong class="title">한국이 싫어서</strong>
+						<span class="name">장강명</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //베스트셀러 -->
+	
+	<div class="notice_box">
+		<div class="wrap clearfix">
+			<div class="news clearfix">
+				<div class="colgroup1">
+					<h2>새소식</h2>
+					<ul>
+						<li><a href="">조태호 저자 출판기념회와 소장품 전시회 안내</a><span class="date">2022.07.09</span></li>
+						<li><a href="">임인년 새해 복 많이 받으세요</a><span class="date">2022.07.09</span></li>
+						<li><a href="">2021년 하반기 전자책 판매현황 업로드</a><span class="date">2022.07.09</span></li>
+						<li><a href="">김성로 저자 제24회 개인전 안내</a><span class="date">2022.07.09</span></li>
+						<li><a href="">유운선 저자 출판기념회 및 개인전</a><span class="date">2022.07.09</span></li>
+					</ul>
+				</div>
+				<div class="colgroup2">
+					<h2>이벤트</h2>
+					<ul>
+						<li><a href="">'책으로 이어지는 우리끼리 커뮤니티' 인증사진 이벤트 </a><span class="date">2022.07.09</span></li>
+						<li><a href="">인문잡지 한편과 함께하는 ‘탐구하는 생활’ </a><span class="date">2022.07.09</span></li>
+						<li><a href="">마음을 이끄는 문장으로 고르는 나의 북클럽 웰컴도서</a><span class="date">2022.07.09</span></li>
+						<li><a href="">반기 패밀리데이 포인트 적립 퀴즈 이벤트</a><span class="date">2022.07.09</span></li>
+						<li><a href="">돌보는 마음 온라인 서점 리뷰대회</a><span class="date">2022.07.09</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="shortcut"><a href=""><img src="img/main/littor.png" alt="Littor 정기구독 안내"></a></div>
+		</div>
+	</div>
+	<!-- //공지사항 -->
+	
+	<div class="youtube_box">
+		<div class="wrap clearfix">
+			<div class="img">
+				<a href="https://youtu.be/V__N5mvqKDY"><img src="img/main/youtube_img.jpg" alt="민음사가 알려드림 알베르 카뮈 동영상 이미지"></a>
+			</div>
+			<div class="text">
+				<h2>민음사 유튜브</h2>
+				<span class="hashtag">#알베르카뮈 #민음사 #알려드림</span>
+				<a href="" class="title">바이러스의 시대, 지금 읽어야 할 한 명의 작가 알베르 카뮈 대표작 '페스트' '이방인' 해설</a>
+				<div class="info">
+					<img src="img/main/mineumsa_tv.png" alt="민음사 TV">
+					<strong>민음사 TV</strong>
+					<span>구독자 10.3만명</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //유튜브 -->
+</div>
+<!-- //메인끝 -->
+
+<footer>
+	<div class="wrap">
+		<ul class="footer_info clearfix">
+			<li><a href="">회원약간</a></li>
+			<li><a href="">개인정보처리방침</a></li>
+			<li><a href="">문의</a></li>
+			<li><a href="">2차 저작권 문의 가이드 : 국내 저작물 / 해외 저작물</a></li>
+			<li><a href="">위치 및 연락처</a></li>
+			<li><a href=""> 사이트맵</a></li>
+			<li><a href="">소식 RSS</a></li>
+			<li><a href="">민음사 도서 RSS</a></li>
+			<li><a href="">ENGLISH</a></li>
+		</ul>
+		<div class="press_group">
+			<button type="button" class="btn">민음사 출판 그룹</button>
+			<div class="cont_box">
+				<ul>
+					<li><a href="">민음사</a></li>
+					<li><a href="">황금가지</a></li>
+					<li><a href="">사이언스북스</a></li>
+					<li><a href="">세미콜론</a></li>
+					<li><a href="">민음인</a></li>
+					<li><a href="">판미동</a></li>
+					<li><a href="">반비</a></li>
+					<li><a href="">펄프</a></li>
+					<li><a href="">비룡소</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="address">
+			<address>주소: 서울시 강남구 신사동 506 강남출판문화센터 5층<span>새주소: 서울시 강남구 도산대로 1길 62 5층</span></address>
+			<ul class="clearfix">
+				<li>(주)민음북스</li>
+				<li>대표이사: 박상준</li>
+				<li>사업자등록번호: 211-88-41803</li>
+				<li>통신판매업 신고번호: 제2010-서울강남-00971호</li>
+				<li>전화: 02-515-2000</li>
+				<li>webmaster@minumsa.com</li>
+			</ul>
+		</div>
+		<p class="copyright">Copyright © Minumsa Publishing Group</p>
+	</div>
+</footer>
+</body>
+</html>
